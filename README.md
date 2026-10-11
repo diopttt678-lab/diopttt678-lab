@@ -1,6 +1,6 @@
 # Hi, I'm MLIA (Talla Diop) 👋
 
-Élève in **1ère S2** at **LYNAQE Kaffrine**, a scientific-track boarding school in Senegal 🇸🇩 — aiming to be genuinely strong in *every* subject, not just my favourite ones: maths, physics-chemistry, biology, computer science, AI, English, robotics, economics, history-geography, PE, Spanish, Arabic.
+Student in **1ère S2** at **LYNAQE Kaffrine**, a scientific-track boarding school in Senegal 🇸🇩 — aiming to be genuinely strong in *every* subject, not just my favourite ones: maths, physics-chemistry, biology, computer science, AI, English, robotics, economics, history-geography, PE, Spanish, Arabic.
 
 I learn in small concrete steps — progressive, visual, with flashcards and exercises — and I'm honest that long unstructured tasks make me procrastinate, so I keep my work short and actionable.
 
