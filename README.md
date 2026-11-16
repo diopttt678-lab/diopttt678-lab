@@ -60,5 +60,4 @@ IOAI 2027 prep (machine learning, NLP, computer vision, and taking AI ethics ser
 
 GitHub [@diopttt678-lab](https://github.com/diopttt678-lab) · LYNAQE Kaffrine, Senegal 🇸🇳
 
-<sub>I write in French and English — French and Wolof are home, but IOAI is an English-language goal, so I'm putting in the work.</sub>
-```
+I write in French and English — French and Wolof are home, but IOAI is an English-language goal, so I'm putting in the work.
