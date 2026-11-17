@@ -1,45 +1,36 @@
+# Hi, I'm Talla Diop (MLIA) 👋
 
-# Hi, I'm MLIA (Talla Diop) 👋
+High-school student (1ère S2, LYNAQE Kaffrine 🇸🇳) building AI and computer vision projects in Python.
 
-Student in **1ère S2** at **LYNAQE Kaffrine**, a scientific-track boarding school in Senegal 🇸🇳 — aiming to be genuinely strong in *every* subject: maths, physics-chemistry, biology, French, English, Spanish, Arabic, history-geography, EPS, and Civic.
-
-I learn in small concrete steps — progressive, visual, with flashcards and exercises — and I'm honest that long unstructured tasks make me procrastinate, so I keep my work short and actionable.
-
----
-
-### 🎯 Where I'm headed
-
-- **IOAI 2027 — Singapore.** I already competed in 2026 in Astana with Team Senegal (no podium — so Singapore is about finishing what I started).
+🎯 **Goal: IOAI 2027, Singapore.** I competed in 2026 in Astana with Team Senegal (no podium), so Singapore is about finishing what I started.
 
 ---
 
-### 🔭 What I'm building
+## 🔭 Projects
 
-#### 🖥️ MLIA Academic OS
+### 🎮 [chifoumi-arbitre](https://github.com/diopttt678-lab/chifoumi-arbitre)
+Rock-paper-scissors you play with your hand through the webcam: MediaPipe Hands → gesture classification → a computer opponent that cheats.
 
-A personal academic operating system running on [Hermes Agent](https://github.com/NousResearch/hermes-agent) — my whole study life in one place:
+**The bug I'm proudest of fixing:** `cv2.waitKey()` blocks. I was calling `waitKey(1800)` for the cheat popup, which froze the whole game loop for 1.8 seconds. Now the popup is drawn over a fixed number of frames instead, so the loop never blocks.
 
+✅ 5 tests cover the rules and gesture logic, no webcam needed:
+- `test_neuf_affrontements`: all nine matchups resolve correctly
+- `test_triche_totale_fait_toujours_gagner_lordi`: the cheat logic
+- `test_sans_triche_jamais_signalee`: no false positives
+- `test_taux_de_victoire_a_30_pourcent`: win-rate tuning
+- `test_gestures`: gesture classification
+
+### 🖥️ MLIA Academic OS
+<!-- Add the repo link here once it's published -->
+My personal academic operating system, built on [Hermes Agent](https://github.com/NousResearch/hermes-agent):
 - A **Telegram coach bot**
 - **6 specialist agents**: planning, per-subject study, gap detection, curriculum tracking, administration, accountability
-- Runs on `gemini-3.1-flash-lite` (Google) — I stay on free models by design
-- Plus separate Hermes profiles for focused work: `chef-pack`, `hackathonsia`, `idea-receive`, `ai-veil`, `s2links`, and a `Repair_man` maintenance profile
-
-#### 🎮 [chifoumi-arbitre](https://github.com/diopttt678-lab/chifoumi-arbitre)
-
-A rock-paper-scissors referee you play with your hand through the webcam — MediaPipe Hands → gesture classification → a cheating computer opponent.
-
-The detail I'm proudest of: `cv2.waitKey()` **blocks**. I was calling `waitKey(1800)` for the cheat popup, which froze the entire game loop for 1.8 seconds. The popup is now remembered and drawn over a fixed number of frames instead — never blocking. 5 tests cover the rules and the gesture logic without a webcam:
-
-- `test_neuf_affrontements` — all nine matchups resolve correctly
-- `test_triche_totale_fait_toujours_gagner_lordi` — the cheat logic
-- `test_sans_triche_jamais_signalee` — no false positives
-- `test_taux_de_victoire_a_30_pourcent` — the win-rate tuning
-- `test_gestures` — gesture classification
+- Runs on `gemini-3.1-flash-lite`. I stay on free models by design.
+- Separate profiles for focused work: `chef-pack`, `hackathonsia`, `idea-receive`, `ai-veil`, `s2links`, plus `Repair_man` for maintenance
 
 ---
 
-### 🛠️ Tools & languages
-
+## 🛠️ Tools & Languages
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/-OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white)
 ![MediaPipe](https://img.shields.io/badge/-MediaPipe-0097A7?style=flat&logo=google&logoColor=white)
@@ -50,14 +41,14 @@ The detail I'm proudest of: `cv2.waitKey()` **blocks**. I was calling `waitKey(1
 ![Telegram](https://img.shields.io/badge/-Telegram-26A5E4?style=flat&logo=telegram&logoColor=white)
 ![Obsidian](https://img.shields.io/badge/-Obsidian-7C3AED?style=flat&logo=obsidian&logoColor=white)
 
-### 🌱 Currently working on
+## 🌱 Currently learning
+- ML, NLP and computer vision for IOAI 2027
+- AI ethics: understanding it, not memorising it
+- Writing the test *before* the code
 
-IOAI 2027 prep (machine learning, NLP, computer vision, and taking AI ethics seriously rather than memorising it), and getting better at writing the test *before* the code.
+## 🧠 How I work
+I learn in small concrete steps (visual, flashcards, exercises) and keep tasks short and actionable. Outside code, I'm aiming to be strong in every subject of the S2 track, from maths and physics to languages.
 
 ---
 
-### 📫 Reach me
-
-GitHub [@diopttt678-lab](https://github.com/diopttt678-lab) · LYNAQE Kaffrine, Senegal 🇸🇳
-
-I write in French and English — French and Wolof are home, but IOAI is an English-language goal, so I'm putting in the work.
+📫 [LinkedIn](https://www.linkedin.com/in/talla-diop-7098bb291/) · diopt3878@gmail.com · I write in French and English (French and Wolof at home).
